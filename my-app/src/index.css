@@ -1,16 +1,85 @@
+@import url("https://use.typekit.net/bzn6gfe.css");
+
 * {
   padding: 0;
   margin: 0;
+  font-family: articulat-cf, sans-serif;
 }
 
 /* Sign Up Styles */
 
-.SignUP {
-  
+.SignUp {
+  position: absolute;
+  width: 30vw;
+  height: 70vh;
+  z-index: 15;
+  top: 35%;
+  left: 50%;
+  margin: -10em 0 0 -10em;
+  border-radius: 2em;
+
+  border: 2px solid #454545;
+  background: #EBEBEB;
+
+  font-weight: 500;
+  font-style: normal;
+}
+
+.SU-title-container {
+  height: 5vh;
+  width: 30vw;
+
+  text-align: center;
+}
+
+.SU-title {
+  text-align: center;
+  padding: 5px;
+
+  border-bottom: 2px solid #222;
+}
+
+.SU-form {
+  position: relative;
+  margin-top: 5vh;
+  width: 27vw;
+  left: 1.5vw;
+
+  text-align: center;
+}
+
+.form-label {
+  font-size: clamp(1.2rem, 2vw, 1.2rem);
+}
+
+.form-input {
+  margin-bottom: 1vh;
+  height: 3vh;
+  width: 25vw;
+  border-radius: 25em;
+
+  border: 2px solid #222;
+}
+
+.submit-button {
+  position: relative;
+  top: 5vh;
+  height: 5vh;
+  width: 10vw;
+
+  border-radius: 2em;
+  outline: none;
+  border: none;
+
+  color: #EBEBEB;
+  background-color: #454545;
+
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #2983EB;
 }
 
 /* Home Styles */
 
-.Home {
-
-}
